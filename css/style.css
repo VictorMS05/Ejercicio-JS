@@ -1,0 +1,106 @@
+body {
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url(https://th.bing.com/th/id/R.a759b3e8ccad1939e90ad7d479b71d5a?rik=TgCDib0YEva0Pw&pid=ImgRaw&r=0);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "form miembros";
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    align-items: center;
+    background-color: #FFC0CB;
+    color: white;
+    display: flex;
+    font-size: 2.5rem;
+    gap: 5vw;
+    grid-area: header;
+    justify-content: center;
+    padding: 2vh 0;
+    width: 100vw;
+}
+
+header img {
+    height: 10vh;
+    width: 10vh;
+}
+
+form {
+    align-items: center;
+    background-color: #FFDAB9;
+    border: 1px solid #E6E6FA;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    grid-area: form;
+    justify-content: center;
+    margin: 5vh 0;
+    padding: 2vh 0;
+    width: 40vw;
+}
+
+label {
+    margin-bottom: 1vh;
+}
+
+input {
+    background-color: #FFFAF0;
+    border: 1px solid #FF69B4;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+    padding: 1vh;
+    text-align: center;
+    width: 50%;
+}
+
+input[type="submit"] {
+    background-color: #FFAAC1;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.25rem;
+    padding: 1vh 2vw;
+    margin-top: 2vh;
+}
+
+#miembros {
+    align-items: center;
+    background-color: #E6E6FA;
+    border: 1px solid #FFDAB9;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    grid-area: miembros;
+    justify-content: center;
+    margin: 5vh 0;
+    padding: 2vh 0;
+    width: 40vw;
+}
+
+#miembros p {
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-bottom: 2vh;
+}
+
+#miembros ul {
+    display: none;
+}
+
+#miembros button {
+    background-color: #D8AAD8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: none;
+    font-size: 1.25rem;
+    margin-top: 2vh;
+    padding: 1vh 2vw;
+}
